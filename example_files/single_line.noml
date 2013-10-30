@@ -1,0 +1,1 @@
+If there's only a single line the parser will simply return a string

@@ -1,0 +1,41 @@
+3
+2
+1
+go
+  start running
+    run randomly around
+    run direction
+      north
+      east
+      to the fridge
+  
+  start fighting using
+    an angry glare
+    pillows
+    shouts
+    
+    rock against
+      paper
+        you win
+      scissor
+        you lose
+      rock
+        it's a draw
+    
+    paper against
+      rock
+        you win
+      scissor
+        you lose
+      paper
+        it's a draw
+      
+    scissor
+      paper
+        you win
+      rock
+        you lose
+      scissor
+        it's a draw
+    
+    

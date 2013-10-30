@@ -1,0 +1,2 @@
+In a document with no indention
+The parser will return an array of strings

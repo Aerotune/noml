@@ -1,0 +1,2 @@
+root
+  if there's a single root node the parser will return a hash

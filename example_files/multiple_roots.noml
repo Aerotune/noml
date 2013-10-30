@@ -1,0 +1,5 @@
+in case of
+  multiple roots
+  
+the parser returns
+  an array of hashes
