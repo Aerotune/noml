@@ -1,7 +1,5 @@
 class Noml
   class << self
-    @@preceding_whitespaces = /^(\s+)(?=\S)/
-    
     def parse_file path
       parse File.read(path)
     end
@@ -37,9 +35,19 @@ class Noml
       end
     end
     
+    #@@preceding_whitespaces = /^(\s+)(?=\S)/
     def indent_of line
-      match = line.match(@@preceding_whitespaces)
-      match ? match.end(0) : 0
+      index = 0
+      while index < line.length
+        if line[index] == " "
+          index += 1
+        else
+          break
+        end
+      end
+      index
+      #match = line.match(@@preceding_whitespaces)
+      #match ? match.end(0) : 0
     end
     
     def indent_line_indexes indent, lines
